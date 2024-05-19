@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz Rejestracyjny</title>
+</head>
+<body>
+    <h1>Formularz Rejestracyjny na Szkolenie</h1>
+    <form action="https://formspree.io/f/xpzvnvko" method="POST">
+        <label for="fname">Imię:</label><br>
+        <input type="text" id="fname" name="first_name" required><br><br>
+        
+        <label for="lname">Nazwisko:</label><br>
+        <input type="text" id="lname" name="last_name" required><br><br>
+        
+        <label for="email">Mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="phone">Telefon:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+        
+        <label for="city">Wybór miasta:</label><br>
+        <select id="city" name="city" required>
+            <option value="krakow">Kraków</option>
+            <option value="warszawa">Warszawa</option>
+            <option value="gdansk">Gdańsk</option>
+        </select><br><br>
+        
+        <label>Płeć:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Mężczyzna</label><br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Kobieta</label><br><br>
+        
+        <label for="message">Wiadomość:</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+        
+        <input type="checkbox" id="consent" name="consent" required>
+        <label for="consent">Zgoda na przetwarzanie danych osobowych</label><br><br>
+        
+        <input type="submit" value="Zapisz się">
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
