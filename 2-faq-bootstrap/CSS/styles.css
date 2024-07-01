@@ -1,0 +1,35 @@
+h1 {
+  text-align: center;
+}
+
+.accordion-body {
+  text-align: center;
+}
+
+.accordion-button {
+  color: #e38f42;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.accordion-button:not(.collapsed),
+.accordion-button:focus,
+.blacked {
+  background-color: lightgray;
+}
+
+.accordion-button:not(.collapsed),
+.blacked:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.accordion-button::after {
+  display: none;
+
+}
+
+.accordion-button:focus {
+
+  box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .0);
+}
