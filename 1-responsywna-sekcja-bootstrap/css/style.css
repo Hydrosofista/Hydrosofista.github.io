@@ -1,0 +1,54 @@
+.bg-orange {
+  background-color: orange;
+}
+
+.bg-blue {
+
+}
+
+
+h1 {
+  text-align:center;
+}
+
+.center {
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+}
+
+.scalable-icon {
+  font-size: 75px;
+}
+
+.fa-brands {
+  color: #e38f42;
+}
+
+.circlek {
+  width: 150px;
+  height: 150px;
+  background: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e38f42;
+  border-radius: 50%;
+}
+
+.circlek i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 18vw;
+  height: 18vw;
+}
+
+.icon-text {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 2rem;
+
+}
